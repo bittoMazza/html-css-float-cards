@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
 }
+
 
 .clearfix::after{
     content: '';
@@ -13,7 +15,9 @@ header,main{
     width: 70%;
     margin: 0 auto;
 }
-
+.header-text p{
+    font-size: 20px;
+}
 header{
     text-align: center;
     margin: 0 auto;
@@ -24,16 +28,22 @@ header{
 }
 
 h1{
-    color: rgb(206, 54, 186);
+    color: rgb(243, 71, 128);
     margin: 30px 0 40px 0;
+    font-size: 40px;
 }
 
 .cards{
-    margin: 10px;
-    margin-bottom: 30px;
+    /* -webkit-box-shadow: 0px 0px 33px -4px #555;
+    -moz-box-shadow: 0px 0px 33px -4px #555;
+    -o-box-shadow: 0px 0px 33px -4px #555;
+    box-shadow: 0px 0px 33px -4px #555; */
+    box-shadow: 0px 0px 10px 5px #aaa;
+    margin: 20px;
+    margin-bottom: 40px;
     float: left;  
     background-color: black;
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 40px);
     
 }
 
@@ -45,30 +55,29 @@ h1{
 
 
 .cards-name{
-    font-size: 1.5rem;
+    font-size:20px;
 }
 
 .cards-text h3,span{
     color: white;
 }
 
-.work-position{
-    display:block;
-    padding: 15px 0 15px 0;
-}
+
 .cards-text{
     margin: 15px 0 15px 0;
     width: calc(100% - 30% - 20px);
     float: left;
 }
 .work-position{
-    font-size: 20px;
+    display:block;
+    padding: 10px 0 10px 0;
+    font-size: 18px;
 }
 
 .cards-email{
     text-decoration: none;
     color: rgb(0, 183, 255);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
