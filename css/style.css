@@ -11,16 +11,18 @@
     display: table;
     clear: both;
 }
+
 header,main{
     width: 70%;
     margin: 0 auto;
 }
+
 .header-text p{
     font-size: 20px;
 }
+
 header{
     text-align: center;
-    margin: 0 auto;
 }
 
 .header-text{
@@ -49,9 +51,10 @@ h1{
 }
 
 .cards-image{
-    width:30%;
+    width: 30%;
     float: left;
     margin-right: 20px;
+    
 }
 
 
@@ -68,6 +71,7 @@ h1{
     margin: 15px 0 15px 0;
     width: calc(100% - 30% - 20px);
     float: left;
+    overflow: hidden;
 }
 .work-position{
     display:block;
@@ -78,7 +82,6 @@ h1{
 .cards-email{
     text-decoration: none;
     color: rgb(0, 183, 255);
-    font-size: 18px;
 }
 
 
